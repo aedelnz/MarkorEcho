@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8">
     <title>MarkorEcho - 个人博客</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="markdown.css" rel="stylesheet" type="text/css"/>
+    <link href="https://aedelnz.github.io/MarkorEcho/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://aedelnz.github.io/MarkorEcho/markdown.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -18,81 +18,34 @@ email: 邮箱
 </div>
 </div>
 
-# 页面内容居中
-```
-body {
+    <div id="main">
+        <div id="post">
+            <div id="title">
+                常用CSS样式及问题小集                <span id="date">[ 2020-02-22 ]</span>
+                <a id="back" href="index.php">[ B A C K ]</a>
+            </div>
+            <div id="markdown"><h1>页面内容居中</h1><pre><code>body {
     margin:0 auto;
-}
-```
-
----
-
-# 单行文字图标居中
-height和line-height设置同样的高度，再用margin-bottom来微调。
-```
-div {
+}</code></pre><hr><h1>单行文字图标居中</h1><p>height和line-height设置同样的高度，再用margin-bottom来微调。</p><pre><code>div {
     height:25px;
     line-height:25px;
-}
-```
-
----
-
-# IE6双倍margin的BUG
-```
-#box {
+}</code></pre><hr><h1>IE6双倍margin的BUG</h1><pre><code>#box {
     float:left;
     width:100px;
     margin:0 0 0 100px; /* IE6会产生200px的距离 */
     display:inline; /* 解决方法 */
-}
-```
-
----
-
-# 给网页更换鼠标指针
-```
-body {
+}</code></pre><hr><h1>给网页更换鼠标指针</h1><pre><code>body {
     cursor:url('指针路径'),auto;
-}
-```
-
----
-
-# CSS Sprites用法
-```
-span {
+}</code></pre><hr><h1>CSS Sprites用法</h1><pre><code>span {
     display:inline-block;
     height:16px; width:16px;
     background:url(icon.png) x坐标 y坐标 no-repeat;
-}
-```
-
----
-
-# 子容器增长时父容器不自动增长
-```
-父容器 {
+}</code></pre><hr><h1>子容器增长时父容器不自动增长</h1><pre><code>父容器 {
     overflow:auto;
     zoom:1; /* 兼容IE6 */
-}
-```
-
----
-
-# IE6 IE7下li高度异常
-IE6 IE7将字体高度也算入行高 导致li高度异常 只需给li定义以下样式即可
-```
-li {
+}</code></pre><hr><h1>IE6 IE7下li高度异常</h1><p>IE6 IE7将字体高度也算入行高 导致li高度异常 只需给li定义以下样式即可</p><pre><code>li {
     font-size:0px;
-}
-```
-
----
-
-# DIV水平垂直居中
-```
-<div></div>
+}</code></pre><hr><h1>DIV水平垂直居中</h1><pre><code>&lt;div&gt;&lt;/div&gt;
 div {
     width:600px;
     height:400px;
@@ -101,81 +54,27 @@ div {
     left:50%; /* 距离左侧50% */
     margin-top:-200px; /* 向上移动div高度的一半 */
     margin-left:-300px; /* 向左移动div宽度的一半 */
-}
-```
-
----
-
-# 子容器margin-top后父容器下移
-```
-<div id="header">
-    <div id="logo" style="margin-top:10px"></div>
-</div>
-```
-header也会下移10px，可以给header设置样式：
-```
-#header {
+}</code></pre><hr><h1>子容器margin-top后父容器下移</h1><pre><code>&lt;div id=&quot;header&quot;&gt;
+    &lt;div id=&quot;logo&quot; style=&quot;margin-top:10px&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><p>header也会下移10px，可以给header设置样式：</p><pre><code>#header {
     overflow:hidden;
-}
-```
-
----
-
-# 去除input框Focus时有颜色的边框
-```
-input{
+}</code></pre><hr><h1>去除input框Focus时有颜色的边框</h1><pre><code>input{
     outline:none;
-}
-```
-
----
-
-# CSS3改变文本选中颜色
-```
-::selection {
+}</code></pre><hr><h1>CSS3改变文本选中颜色</h1><pre><code>::selection {
     background:#000;
     color:#FFF;
-}
-```
-
----
-
-# IE6 IE7 display:inline-block属性无效
-```
-<div></div>
-<div></div>
-```
-```
-div {
+}</code></pre><hr><h1>IE6 IE7 display:inline-block属性无效</h1><pre><code>&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;</code></pre><pre><code>div {
     display:inline-block;
     width:100px;
     height:100px;
     background:red;
-}
-```
-在IE6 IE7下显示为两行，解决方法：
-```
-div {
+}</code></pre><p>在IE6 IE7下显示为两行，解决方法：</p><pre><code>div {
     *display:inline;
-}
-```
-
----
-
-# IE6 IE7空div占空间
-IE6 IE7下空白的div标签会占用一行高度，解决方法：
-```
-div {
+}</code></pre><hr><h1>IE6 IE7空div占空间</h1><p>IE6 IE7下空白的div标签会占用一行高度，解决方法：</p><pre><code>div {
     height:0;
     overflow:hidden;
-}
-```
-
----
-
-# CSS3页面淡入效果
-```
-@keyframes fade-in {
+}</code></pre><hr><h1>CSS3页面淡入效果</h1><pre><code>@keyframes fade-in {
     0% {opacity: 0;}
     30% {opacity: 0;}
     100% {opacity: 1;}
@@ -183,20 +82,14 @@ div {
 body {
     animation: fade-in;
     animation-duration: 1s;
-}
-```
-
----
-
-# CSS长文本显示省略号
-```
-.cut {
+}</code></pre><hr><h1>CSS长文本显示省略号</h1><pre><code>.cut {
     width: 100px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-```
-```
-<p class="cut">我是一段很长很可爱的文字</p>
-```
+}</code></pre><pre><code>&lt;p class=&quot;cut&quot;&gt;我是一段很长很可爱的文字&lt;/p&gt;</code></pre></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
