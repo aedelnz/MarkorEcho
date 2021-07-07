@@ -3,7 +3,7 @@ MarkorEcho是一个级基于PHP的轻量博客,只有一个37.76kb主程序组�
 
 
 # 念念不忘，必有回响
-## 三年 Typecho 沉淀，现在，回应您的等待
+## 三年 MarkorEcho 沉淀，现在，回应您的等待
 [立即下载]() [GitHub 源码](https://github.com/aedelnz/MarkorEcho)
 
 ## 轻量高效
