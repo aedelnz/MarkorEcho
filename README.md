@@ -4,7 +4,8 @@ MarkorEcho是一个级基于PHP的轻量博客,只有一个37.76kb主程序组�
 
 # 念念不忘，必有回响
 ## 三年 MarkorEcho 沉淀，现在，回应您的等待
-[立即下载]() [GitHub 源码](https://github.com/aedelnz/MarkorEcho)
+[立即下载](https://github-releases.githubusercontent.com/383549965/dfb31300-df1e-11eb-914b-dde220469fa4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210707T042929Z&X-Amz-Expires=300&X-Amz-Signature=96125367e4c11188741913c601808efd4ab11f7d2eaa7627ecb8073e868d8ea3&X-Amz-SignedHeaders=host&actor_id=44128582&key_id=0&repo_id=383549965&response-content-disposition=attachment%3B%20filename%3Ddefault.zip&response-content-type=application%2Foctet-stream) 
+[GitHub 源码](https://github.com/aedelnz/MarkorEcho)
 
 ## 轻量高效
 仅仅 1个PHP程序，加上不足 100KB 的代码，就实现了完整的插件与模板机制。超低的 CPU 和内存使用率，足以发挥主机的最高性能。
